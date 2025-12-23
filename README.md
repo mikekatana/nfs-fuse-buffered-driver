@@ -4,6 +4,12 @@
 
 The code is actually a prototype and optimized for some synthetic FIO runs
 
+- Actually optimized for TCP
+- Uses RING Buffers to simulate DPDK behaviour
+- uses buffers of 2048M per thread
+- Included TCP link recovery and remount options per thread to stabilize the transaction
+- 
+
 
 # Install depedencies to compile the FUSE driver
 
